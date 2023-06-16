@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_WiFi">
+
+    <fragment
+        android:id="@+id/nav_WiFi"
+        android:name="com.example.fungus.ui.WiFi.WiFiFragment"
+        android:label="@string/menu_WiFi"
+        tools:layout="@layout/fragment_wifi" />
+
+    <fragment
+        android:id="@+id/nav_BT"
+        android:name="com.example.fungus.ui.Bluetooth.BluetoothFragment"
+        android:label="@string/menu_BT"
+        tools:layout="@layout/fragment_bluetooth" />
+
+    <fragment
+        android:id="@+id/nav_NFC"
+        android:name="com.example.fungus.ui.NFC.NFCFragment"
+        android:label="@string/menu_NFC"
+        tools:layout="@layout/fragment_nfc" />
+</navigation>

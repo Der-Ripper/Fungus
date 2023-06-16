@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Fungus</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_WiFi">Wi-Fi</string>
+    <string name="menu_BT">Bluetooth</string>
+    <string name="menu_NFC">NFC</string>
+    <string name="button_BT">Scan bluetooth</string>
+    <string name="button_WiFi">Scan Wi-Fi</string>
+    <string name="button_NFC">Read NFC</string>
+    <string name="network_name">Network name</string>
+    <string name="protection_type">Protection type</string>
+    <string name="signal_level">Signal level</string>
+    <string name="device_name">Device name</string>
+    <string name="device_address">Device address</string>
+</resources>
